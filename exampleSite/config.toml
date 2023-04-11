@@ -1,11 +1,11 @@
 baseurl = "https://example.org/"
-title = "Arabica"
+title = "해양 리터러시"
 author = "John Doe"
 paginate = 3
 theme = "arabica"
 
 [params]
-    description = "A minimal Hugo theme"
+    description = "우리가 원하는 바다에 필요한 과학"
     dateFormatToUse = "2006-01-02"
     replaceGoogleFonts = "fonts.loli.net"
     twitter = "example"

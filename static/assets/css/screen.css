@@ -87,6 +87,13 @@ code, tt, pre {
     background: none;
 }
 
+code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+}
+
 pre {
 	padding: 0 2em;
 	line-height: 1.3em;
@@ -233,21 +240,22 @@ dl dd {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
-	font-weight: 300;
+	font-weight: 350;
     font-size: 2.887rem;
     vertical-align: middle;
     line-height: 1;
+    color: rgb(5, 5, 61);
 }
 
 .blog-title a {
-	font-color: inherit;
+	color: inherit;
 }
 
 .blog-description {
     margin: 0;
     font-size: 0.889rem;
     font-family: "Lato", sans-serif;
-    text-transform: uppercase;
+    /*text-transform: ; */
     letter-spacing: 0;
     color: #9EABB3;
     font-weight: 300;
@@ -398,6 +406,18 @@ a.nav-home, a.nav-blog {
 	display: block;
 	max-width: 100%;	/* Keep image contained in width of post */
 	margin: 0 auto 0.5rem;
+}
+
+.post figcaption {
+    margin: 0;
+    font-size: 0.889rem;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #9EABB3;
+    font-weight: 300;
+    text-align: center;
 }
 
 .footnotes-sep {

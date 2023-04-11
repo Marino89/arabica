@@ -1,0 +1,7 @@
+<figure>
+    <img src="{{ .Get `src` }}" alt="{{ .Get `alt` }}"/>
+    {{ with .Get "caption" }}
+    <p style="text-align:center;"><em class="blog-description" >{{ . }}</em></p>
+    <!-- <figcaption class="caption-text">{{ . }}</figcaption> -->
+    {{ end }}
+</figure>

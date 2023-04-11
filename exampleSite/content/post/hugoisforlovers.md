@@ -1,5 +1,5 @@
 +++
-title = "Getting Started"
+title = "바다의 가치"
 description = ""
 tags = [
     "go",
